@@ -5,6 +5,22 @@ body {
     color: #161616;
 }
 
+a{ 
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 130%;
+    text-decoration: none;
+    color: #161616;
+}
+
+a:hover{
+    color: #2563EB;
+}
+
+.link-regular{
+    font-weight: 400;
+}
+
 /* Style for title */
 h1 {
     font-size: 96px;
