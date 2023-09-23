@@ -1,1 +1,46 @@
-body { color: blueviolet;}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Manrope; 
+    color: #161616;
+}
+
+/* Style for title */
+h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+/* Style for heading */
+h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+/* Style for subheading */
+h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.subheading-regular {
+    font-weight: 400;
+}
+
+/* Style for pullout quote */
+h4 {
+    color: #2563EB; 
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+/* Style for body text */
+p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
