@@ -136,6 +136,8 @@ p{
     font-weight: 700;
 }
 
+/* layout styling */
+
 .row {
     display: flex;
 }
