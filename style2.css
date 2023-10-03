@@ -2,8 +2,9 @@
 
 body {
     font-family: Manrope; 
-    color: #161616;
+    color: white;
     margin: 40px;
+    background-color: #151515;
 }
 
 /* styling for nav */
@@ -23,12 +24,12 @@ a{
     font-weight: 700;
     line-height: 130%;
     text-decoration: none;
-    color: #161616;
+    color: white;
     display: inline-block;
 }
 
 a:hover{
-    color: #2563EB;
+    color: #FF9839;
 }
 
 .link-regular{
@@ -42,14 +43,14 @@ footer{
     padding-bottom: 24px;
     position: fixed;
     top: 870px;
-    background-color: white;
+    background-color: #151515;
 }
 
 .footer-text{
     font-size: 20px;
     font-weight: 700;
     line-height: 150%;
-    color: #2563EB;
+    color: #FF9839;
     max-width: none;
 }
 
@@ -57,7 +58,7 @@ footer{
     font-size: 20px;
     font-weight: 700;
     line-height: 150%;
-    color: #2563EB;
+    color: #FF9839;
     max-width: none;
     margin-left: 880px;
 }
@@ -66,7 +67,7 @@ footer{
     font-size: 20px;
     font-weight: 700;
     line-height: 150%;
-    color: #2563EB;
+    color: #FF9839;
     max-width: none;
     margin-left: 40px;
 }
@@ -113,9 +114,9 @@ h4 {
 
 /* Style for pullout quote */
 blockquote {
-    color: #2563EB; 
+    color: #FF9839; 
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 150%;
     max-width: 50vw;
     position: sticky;
