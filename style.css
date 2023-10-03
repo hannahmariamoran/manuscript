@@ -50,12 +50,13 @@ footer{
 .footer-text-colour{
     color: #2563EB;
 }
+
 /* Style for title */
 h1 {
     font-size: 96px;
     font-weight: 700;
     line-height: 110%;
-    margin-top: 50vh;
+    margin-top: 450px;
 }
 
 /* Style for heading */
@@ -64,6 +65,7 @@ h2 {
     font-weight: 400;
     line-height: 130%;
     max-width: 50vw;
+    margin-bottom: 64px;
 }
 
 /* Style for subheading */
@@ -71,6 +73,7 @@ h3 {
     font-size: 32px;
     font-weight: 700;
     line-height: 130%;
+    margin-bottom: 32px;
 }
 
 .subheading-regular {
@@ -92,9 +95,35 @@ p{
     font-weight: 400;
     line-height: 150%;
     max-width: 50vw;
-    margin-top: 32px;
+    margin-bottom: 16px;
 }
 
 .p-bold{
     font-weight: 700;
+}
+
+.row {
+    display: flex;
+  }
+
+.text-title-row{
+    display: flex;
+    margin-top: 200px;
+}
+  
+.column {
+    flex: 50%;
+    padding: 15px;
+  }
+
+.column-left{
+    margin-left: 732px;
+}
+
+.first-text-section{
+    margin-top: 64px;
+}
+
+.text-section{
+    margin-top: 128px;
 }
