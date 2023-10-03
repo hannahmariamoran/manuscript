@@ -6,12 +6,23 @@ body {
     margin: 40px;
 }
 
+ul{
+    display: inline-block;
+    margin-left: 732px;
+}
+
+li{
+    display: inline-block;
+}
+
 a{ 
     font-size: 32px;
     font-weight: 700;
     line-height: 130%;
     text-decoration: none;
     color: #161616;
+    max-width: 21.94vw;
+    display: inline-block;
 }
 
 a:hover{
@@ -22,11 +33,29 @@ a:hover{
     font-weight: 400;
 }
 
+footer{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: -40px;
+    display: inline-block;
+}
+
+.footer-link{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #2563EB;
+}
+
+.footer-text-colour{
+    color: #2563EB;
+}
 /* Style for title */
 h1 {
     font-size: 96px;
     font-weight: 700;
     line-height: 110%;
+    margin-top: 50vh;
 }
 
 /* Style for heading */
@@ -34,6 +63,7 @@ h2 {
     font-size: 48px;
     font-weight: 400;
     line-height: 130%;
+    max-width: 50vw;
 }
 
 /* Style for subheading */
@@ -53,6 +83,7 @@ blockquote {
     font-size: 28px;
     font-weight: 500;
     line-height: 150%;
+    max-width: 50vw;
 }
 
 /* Style for body text */
@@ -60,4 +91,10 @@ p{
     font-size: 20px;
     font-weight: 400;
     line-height: 150%;
+    max-width: 50vw;
+    margin-top: 32px;
+}
+
+.p-bold{
+    font-weight: 700;
 }
