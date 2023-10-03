@@ -87,6 +87,8 @@ blockquote {
     font-weight: 500;
     line-height: 150%;
     max-width: 50vw;
+    position: sticky;
+    top: 40px;
 }
 
 /* Style for body text */
